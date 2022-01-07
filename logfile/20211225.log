@@ -1,0 +1,10 @@
+2021-12-25 12:30:01,008 用户没有扫码关注。转发给主号
+2021-12-25 12:30:01,010 用户没有扫码关注。转发给主号
+2021-12-25 22:16:05,182 JSHandle:getMsg-btn text-btn J_ping timer active
+2021-12-25 22:16:07,431     手机：15155924894 tabe 创建 时间:12/25/2021 22:16:07
+2021-12-25 22:16:07,431 15155924894选字安全验证
+2021-12-25 22:16:07,457 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NETJDC\Server\PageServer\PageServer.cs:line 1004
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NETJDC\Server\PageServer\PageServer.cs:line 415
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NETJDC\NETJDC\Controllers\CloudController.cs:line 199
+2021-12-25 22:21:07,433     手机：15155924894 tabe 自动回收 时间:12/25/2021 22:21:07
