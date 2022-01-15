@@ -10,7 +10,7 @@
   //Proxy 支持不带密码的socks5 以及http 
   ///http  Proxy 只需要填写 ip:端口
   /// Socks5 需要填写socks5://ip:端口 不能填写下方账户密码
-  "Proxy": "socks5://121.37.182.167:1080",
+  "Proxy": "",
   //Proxy帐号
   "ProxyUser": "",
   //Proxy密码
@@ -32,8 +32,8 @@
   // WP_APP_TOKEN 可在管理台查看: https://wxpusher.zjiecode.com/admin/main/app/appToken
   // MainWP_UID 填你自己uid
   ///这里的通知只用于用户登陆 删除 是给你的通知
-  "WP_APP_TOKEN": "AT_I1O6PWzs1QWi5CWGqDb7q76JRSdVxFvB",
-  "MainWP_UID": "UID_62XLxlNvEoFsUs2lWbzq4Zk3XVzS",
+  "WP_APP_TOKEN": "",
+  "MainWP_UID": "",
   // ======================================= pushplus 通知设置区域 ===========================================
   ///Push Plus官方网站：http" //www.pushplus.plus  只有青龙模式有用
   ///下方填写您的Token，微信扫码登录后一对一推送或一对多推送下面的token，只填" "PUSH_PLUS_TOKEN",
@@ -48,15 +48,15 @@
       //服务器名称
       "QLName": "yun",
       //青龙地址
-      "QLurl": "http://ql.suja.plus",
+      "QLurl": "",
       //青龙2,9 OpenApi Client ID
-      "QL_CLIENTID": "mUA4apN-ITom",
+      "QL_CLIENTID": "",
       //青龙2,9 OpenApi Client Secret
-      "QL_SECRET": "-pRVXn82rD8LsQkVIQf_XxWW",
+      "QL_SECRET": "",
       //CK最大数量
       "QL_CAPACITY": 99,
       ///建议一个青龙一个WxPusher 应用
-      "WP_APP_TOKEN": "AT_I1O6PWzs1QWi5CWGqDb7q76JRSdVxFvB"
+      "WP_APP_TOKEN": ""
     }
   ]
 
